@@ -1,0 +1,58 @@
+# E-Commerce Analytics with Olist Retail Data
+
+This project analyzes real Brazilian e-commerce data from [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), providing insights into customer behavior, seller performance, product sales, delivery times, and payment patterns.
+
+The goal is to simulate the role of a data analyst in a retail e-commerce department by cleaning, merging, analyzing, and visualizing large volumes of transactional data using Python.
+
+---
+
+## 🔍 Project Overview
+
+- **Data Source**: Brazilian E-Commerce Public Dataset by Olist  
+- **Records Processed**: 100,000+  
+- **Tools Used**: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+---
+
+## 📊 Key Insights
+
+- Monthly trends in orders, revenue, and delivery time
+- Top-performing product categories and sellers
+- Shipping cost distribution and trends
+- Customer behavior segmented by location
+- Payment method patterns and installment usage
+
+---
+
+## 📁 Files Analyzed
+
+- `orders.csv`: Order statuses, purchase and delivery dates
+- `order_items.csv`: Product-level sales and freight values
+- `products.csv` + `product_category_name_translation.csv`: Category names and product attributes
+- `order_payments.csv`: Payment types and installment analysis
+- `customers.csv`: Regional behavior and order trends
+- `sellers.csv`: Seller distribution and revenue
+- Combined files: For time-based and performance trend insights
+
+---
+
+## 📈 Visualizations Included
+
+- Bar charts for top sellers, categories, and states
+- Line charts for monthly trends (orders, revenue, delivery times)
+- Histograms and KDE plots for shipping and payment patterns
+- Scatter plots for product weight vs price
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Data wrangling, cleaning, and merging multiple datasets
+- Feature extraction from timestamps and categorical fields
+- Aggregation and grouping for KPI calculation
+- Exploratory Data Analysis (EDA) and storytelling with visualizations
+
+---
+
+## 🗂️ Folder Structure
+
